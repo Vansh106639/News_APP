@@ -13,12 +13,33 @@ export class Navbar extends Component {
               <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+              <ul className="navbar-nav">
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="/">Home</a>
+                  <a className="nav-link active" aria-current="page" href="/"><strong>Home</strong></a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/">About</a>
+                  <a className="nav-link" href="/">Business</a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="/">Entertainment</a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="/">General</a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="/">Science</a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="/">Sports</a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="/">Technology</a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="/">Health</a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="/"><strong>About</strong></a>
                 </li>
               </ul>
             </div>

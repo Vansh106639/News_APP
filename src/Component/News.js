@@ -1,8 +1,17 @@
 import React, { Component } from 'react'
 import NewsItems from './NewsItems'
 import Speener from './Speener';
-
 export class News extends Component {
+  static defaultProps = {
+    country: "in",
+    category: "general",
+    pageSize: 9,
+  }
+ /*static PropTypes = {
+    country: PropTypes.string,
+    category: PropTypes.string,
+    pageSize: PropTypes.number
+  }*/
   constructor() {
     super();
 
