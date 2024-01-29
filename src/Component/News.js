@@ -7,13 +7,8 @@ export class News extends Component {
     category: "general",
     pageSize: 9,
   }
- /*static PropTypes = {
-    country: PropTypes.string,
-    category: PropTypes.string,
-    pageSize: PropTypes.number
-  }*/
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
 
     this.state = {
       articles: [],
@@ -21,7 +16,9 @@ export class News extends Component {
       totalResults: 0,
       loading: true
     }
+    document.title=`Newsomania - ${this.props.category}`
   }
+
   async componentDidMount() {
     let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=465be5904a054965a01789ac85f63a4c&page=1&pagesize=${this.props.pageSize}`
     this.setState({ loading: true });
@@ -60,7 +57,7 @@ export class News extends Component {
       <>
         <div className='container my-3'>
           {this.state.loading && <Speener />}
-          <h1 className="text-center">Cricket Top headlines</h1>
+          <h1 className="text-center">Top Headlines - {this.props.category} </h1>
           <div className="row">
             {!this.state.loading && this.state.articles.map((element) => {
               return <div className="col-md-4 mt-3" key={element.url}>
