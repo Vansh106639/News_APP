@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/VanshGosavi07/Newsomania/static/css/main.31d6cfe0.css",
+    "main.js": "/VanshGosavi07/Newsomania/static/js/main.98f44094.js",
+    "static/js/787.6643f1c0.chunk.js": "/VanshGosavi07/Newsomania/static/js/787.6643f1c0.chunk.js",
+    "static/media/spiner.gif": "/VanshGosavi07/Newsomania/static/media/spiner.134e4f0136988d3ca16f.gif",
+    "index.html": "/VanshGosavi07/Newsomania/index.html",
+    "main.98f44094.js.map": "/VanshGosavi07/Newsomania/static/js/main.98f44094.js.map",
+    "787.6643f1c0.chunk.js.map": "/VanshGosavi07/Newsomania/static/js/787.6643f1c0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.98f44094.js"
+  ]
+}
